@@ -1,0 +1,31 @@
+[
+  {
+    "question": "Match the term to the value represented.",
+    "answers": [
+      {
+        "answer": "Bit",
+        "drop": "a one or a zero"
+      },
+      {
+        "answer": "Byte",
+        "drop": "eight bits"
+      },
+      {
+        "answer": "Gigabyte",
+        "drop": "approximately one billion bytes"
+      },
+      {
+        "answer": "Kilobyte",
+        "drop": "approximately one thousand bytes"
+      },
+      {
+        "answer": "Megabyte",
+        "drop": "approximately one million bytes"
+      },
+      {
+        "answer": "Terabyte",
+        "drop": "approximately one tillion bytes"
+      }
+    ]
+  }
+]

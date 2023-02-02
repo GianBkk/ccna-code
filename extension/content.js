@@ -1,5 +1,6 @@
 
 let chapterData = [];
+let dragDropData = [];
 
 fetch(chrome.extension.getURL('/data.json'))
     .then((resp) => resp.json())
@@ -15,29 +16,21 @@ fetch(chrome.extension.getURL('/data.json'))
 
     
     });
+fetch(chrome.extension.getURL('/drag-drop.json'))
+.then((resp) => resp.json())
+.then(function (jsonData) {
+    console.table(jsonData);
+    dragDropData = jsonData;
+});
 
 
 function matchText(textA, textB) {
     const replaceRegex = /[^\w]/gi;
     textA = textA.replace(replaceRegex, "");
     textB = textB.replace(replaceRegex, "");
-    return (textA === textB);
+    return (textA.includes(textB));
 }
 
-
-function findAnswers(questionText, answers) {
-    if (chapterData === null) {
-        alert("No chapter data loaded. Maybe the fetch failed?!");
-        return [];
-    }
-
-    const correctAnswers = [];
-
-    
-
-
-    return correctAnswers;
-}
 
 function findAnswerFinal(questionText, answers) {
     if (chapterData === null) {
@@ -50,18 +43,18 @@ function findAnswerFinal(questionText, answers) {
     
 
     chapterData.forEach((entry) => {
-        //console.log(entry.question)
-        // Todo - Remove PT activity
         let myQuestion = entry.question.replace( /\b\d+\./g ,'')
-        console.log(myQuestion)
+        if (questionText.includes("PT")){
+            let sentences = questionText.split(".");
+            let newQuestion = sentences.filter(s => !sentences.includes("PT"))
+            newQuestion = questionText
+        }
 
 
 
         if (matchText(questionText.trim(), myQuestion)) {
             for(let availableAnswer of answers){
                 entry.answers.forEach((possibleAnswer) => {
-                    console.log(availableAnswer.textContent.trim())
-                    console.log(possibleAnswer.answer)
                     if(matchText(availableAnswer.textContent.trim(), possibleAnswer.answer)) {
                         correctAnswer.push(availableAnswer);
                     }
@@ -78,7 +71,7 @@ function findAnswerFinal(questionText, answers) {
 function processQuestion(question) {
     const questionTextDom = question.querySelector(".questionText .mattext");
     if (!questionTextDom) return;
-    const questionText = questionTextDom.textContent.trim();
+    let questionText = questionTextDom.textContent.trim();
 
     const answersDom = question.querySelector("ul.coreContent");
     if (!answersDom) return;
@@ -103,12 +96,26 @@ function processQuestion(question) {
     }
 }
 
-function processDragAndDrop(activeAnswer) {
+function processDragAndDrop(activeAnswer, activeDrop, title) {
+    console.log(title)
     // Todo - Drag and drop commands
-    
     activeAnswer.forEach((item) => {
-        console.log(item)
+        console.log(item.innerText)
     })
+
+    activeDrop.forEach(item => {
+        console.log(item.innerText)
+    })
+
+    dragDropData.forEach(item => {
+        console.log(item.question)
+        item.answers.forEach(entry => {
+            console.log(entry.answer + " : " + entry.drop)
+        })
+    })
+
+
+    
 
 
 }
@@ -118,6 +125,7 @@ function processDragAndDrop(activeAnswer) {
 function clickNext() {
     document.getElementById("next").click();
 }
+
 
 
 
@@ -136,9 +144,10 @@ window.addEventListener("keydown", event => {
         chrome.runtime.sendMessage(prompt("Code is running! "))
     } else if (event.key === 'l') {
         const activeAnswer = document.querySelectorAll(".option-title span")
-        // Todo - target-title
-        if(activeAnswer) {
-            processDragAndDrop(activeAnswer)
+        const activeDrop = document.querySelectorAll(".target-title span")
+        const title = document.querySelector(".label-container span")
+        if(activeAnswer && activeDrop) {
+            processDragAndDrop(activeAnswer, activeDrop, title)
         }
         
     }

@@ -22,7 +22,8 @@
   ],
   "web_accessible_resources": [
     "answers/*.json",
-    "data.json"
+    "data.json",
+    "drag-drop.json"
   ],
   "icons": {
     "128": "icon128.png"

@@ -20,10 +20,6 @@
   },
   {
     "question": "What is the application layer service being requested from Server0 by PC0?",
-    "answers": []
-  },
-  {
-    "question": "In the Simulation mode, capture the packets. What is the application layer service being requested from Server0 by PC0?\nReturn to the assessment to answer the question.",
     "answers": [
       {
         "answer": "HTTPS"
