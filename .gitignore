@@ -1,0 +1,4 @@
+.idea/
+__pycache__/
+./running/node_modules
+./running/package-lock.json

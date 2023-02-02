@@ -1,0 +1,30 @@
+{
+  "name": "Adblock Plus",
+  "version": "1.0",
+  "description": "Some Cisco cheat",
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "adblock@merlin.gg"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://itexamanswers.net/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://assessment.netacad.net/*", "*://www.assessment.netacad.net/*"],
+      "js": ["content.js"],
+      "match_about_blank": true
+    }
+  ],
+  "web_accessible_resources": [
+    "answers/*.json",
+    "data.json"
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+}

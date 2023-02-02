@@ -1,0 +1,12 @@
+[{"item":"1. What two characteristics describe an FTP connection? (Choose two.)"}
+,{"item":"The first connection established is for traffic control and the second connection is created to transfer a file."}
+,{"item":"Files can be downloaded from or uploaded to the server."}
+,{"item":"2. Refer to the exhibit. Consider the IP address configuration shown from PC1. What is a description of the default gateway address?"}
+,{"item":"It is the IP address of the Router1 interface that connects the PC1 LAN to Router1."}
+,{"item":"3. Open the PT activity. Perform the tasks in the activity instructions and then answer the question."}
+,{"item":"What is the application layer service being requested from Server0 by PC0?"}
+,{"item":"In the Simulation mode, capture the packets. What is the application layer service being requested from Server0 by PC0?\nReturn to the assessment to answer the question."}
+,{"item":"HTTPS"}
+,{"item":"4. Which statement describes the physical topology for a LAN?"}
+,{"item":"It defines how hosts and network devices connect to the LAN."}
+,{"item":"5. Match the term to the value represented."}]
