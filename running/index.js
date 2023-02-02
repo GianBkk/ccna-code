@@ -9,10 +9,15 @@ data.forEach((key) => {
     if(key.item.includes("?")){
         answer = []
         question = key.item
-        j = index + 1
+        if(data.length > index){
+            j = index + 1
+        } else {
+            j = index
+        }
+        
         check = true
         while(check){
-            if (data[j].item.includes("Explanation:") || data[j].item.includes("?")){
+            if (data[j].item.includes("Explanation:") || data[j].item.includes("?") || data[j].item.includes("Match") || data[j].item.includes("Explain:") || data[j].item.includes("PT")){
                 check = false
             } else {
                 answer.push({answer : data[j].item})
@@ -26,6 +31,9 @@ data.forEach((key) => {
         finisedList.push({question: question, answers : answer})
     }
 })
+
+
+
 
 fs.writeFile(path, JSON.stringify(finisedList), (err) => { if(err) throw error})
 

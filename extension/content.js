@@ -51,7 +51,7 @@ function findAnswerFinal(questionText, answers) {
 
     chapterData.forEach((entry) => {
         //console.log(entry.question)
-        
+        // Todo - Remove PT activity
         let myQuestion = entry.question.replace( /\b\d+\./g ,'')
         console.log(myQuestion)
 
@@ -103,6 +103,17 @@ function processQuestion(question) {
     }
 }
 
+function processDragAndDrop(activeAnswer) {
+    // Todo - Drag and drop commands
+    
+    activeAnswer.forEach((item) => {
+        console.log(item)
+    })
+
+
+}
+
+
 
 function clickNext() {
     document.getElementById("next").click();
@@ -123,7 +134,16 @@ window.addEventListener("keydown", event => {
 
     } else if (event.key === 'p') {
         chrome.runtime.sendMessage(prompt("Code is running! "))
+    } else if (event.key === 'l') {
+        const activeAnswer = document.querySelectorAll(".option-title span")
+        // Todo - target-title
+        if(activeAnswer) {
+            processDragAndDrop(activeAnswer)
+        }
+        
     }
+
+
     // else if (event.key === "p") {
     //     chrome.storage.local.get(["lastUrl"], result => {
     //         answerUrl = prompt("Please input the answer url (itexamanswers.net)", result.lastUrl);
