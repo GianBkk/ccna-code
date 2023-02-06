@@ -139,13 +139,13 @@ window.addEventListener("keydown", event => {
         clickNext();
 
     } else if (event.key === 'p') {
-        chrome.runtime.sendMessage(prompt("Code is running! "))
+        chrome.runtime.sendMessage("Code Running")
     } else if (event.key === 'l') {
         const activeAnswer = document.querySelectorAll(".option-title span")
         const activeDrop = document.querySelectorAll(".target-title span")
         const title = document.querySelector(".label-container span")
         if(activeAnswer && activeDrop) {
-            processDragAndDrop(activeAnswer, activeDrop, title)
+            //processDragAndDrop(activeAnswer, activeDrop, title)
         }
         
     }

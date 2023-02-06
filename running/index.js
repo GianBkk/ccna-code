@@ -1,5 +1,5 @@
 let fs = require('fs')
-let data = require('./data.json')
+let data = require('./data/ccna2.json')
 let finisedList = []
 let path = '../extension/data.json'
 let index = -1;
