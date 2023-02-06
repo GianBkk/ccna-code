@@ -114,9 +114,7 @@ function processDragAndDrop(activeAnswer, activeDrop, title) {
         })
     })
 
-
-    
-
+    // TODO - If anzahl auswahl mehr als antworten mache etwas
 
 }
 
@@ -161,3 +159,5 @@ window.addEventListener("keydown", event => {
     //     })
     // }
 });
+
+
