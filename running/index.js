@@ -1,5 +1,5 @@
 let fs = require('fs')
-let data = require('./data/ccna2.json')
+let data = require('./datas.json')
 let finisedList = []
 let path = '../extension/data.json'
 let index = -1;
@@ -36,7 +36,3 @@ data.forEach((key) => {
 
 
 fs.writeFile(path, JSON.stringify(finisedList), (err) => { if(err) throw error})
-
-
-
-

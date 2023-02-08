@@ -129,7 +129,6 @@ function clickNext() {
 
 window.addEventListener("keydown", event => {
     if (event.key === "a") {
-        // Inactive questions have the hidden class
         const activeQuestion = document.querySelector(".question:not(.hidden)");
         if (activeQuestion) {
             processQuestion(activeQuestion);
