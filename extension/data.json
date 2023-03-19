@@ -1,1 +1,1159 @@
-[{"question":"1. Which term refers to a network that provides secure access to the corporate offices by suppliers, customers and collaborators?","answers":[{"answer":"extranet"}]},{"question":"2. A small business user is looking for an ISP connection that provides high speed digital transmission over regular phone lines. What ISP connection type should be used?","answers":[{"answer":"DSL"}]},{"question":"3. Refer to the exhibit. An administrator is trying to configure the switch but receives the error message that is displayed in the exhibit. What is the problem?","answers":[{"answer":"The administrator must first enter privileged EXEC mode before issuing the command."}]},{"question":"4. Which keys act as a hot key combination that is used to interrupt an IOS process?","answers":[{"answer":"Ctrl-Shift-6"}]},{"question":"5. Refer to the exhibit. A network administrator is configuring access control to switch SW1. If the administrator uses Telnet to connect to the switch, which password is needed to access user EXEC mode?","answers":[{"answer":"linevtyin"}]},{"question":"6. A network administrator enters the service password­encryption command into the configuration mode of a router. What does this command accomplish?","answers":[{"answer":"This command prevents someone from viewing the running configuration passwords."}]},{"question":"7. What is the purpose of the SVI on a Cisco switch?","answers":[{"answer":"The SVI provides a virtual interface for remote access to the switch."}]},{"question":"8. Which message delivery option is used when all devices need to receive the same message simultaneously?","answers":[{"answer":"broadcast"}]},{"question":"9. Which two protocols function at the internet layer? (Choose two.)","answers":[{"answer":"ICMP"},{"answer":"IP"}]},{"question":"10. What PDU is associated with the transport layer?","answers":[{"answer":"segment"}]},{"question":"11. What is done to an IP packet before it is transmitted over the physical medium?","answers":[{"answer":"It is encapsulated in a Layer 2 frame."}]},{"question":"12. What type of communication medium is used with a wireless LAN connection?","answers":[{"answer":"radio waves"}]},{"question":"13. In addition to the cable length, what two factors could interfere with the communication carried over UTP cables? (Choose two.)","answers":[{"answer":"crosstalk"},{"answer":"electromagnetic interference"}]},{"question":"14. What are the two sublayers of the OSI model data link layer? (Choose two.)","answers":[{"answer":"LLC"},{"answer":"MAC"}]},{"question":"15. A technician has been asked to develop a physical topology for a network that provides a high level of redundancy. Which physical topology requires that every node is attached to every other node on the network?","answers":[{"answer":"mesh"}]},{"question":"16. What type of communication rule would best describe CSMA/CD?","answers":[{"answer":"access method"}]},{"question":"17. If data is being sent over a wireless network, then connects to an Ethernet network, and eventually connects to a DSL connection, which header will be replaced each time the data travels through a network infrastructure device?","answers":[{"answer":"data link"}]},{"question":"18. What best describes the destination IPv4 address that is used by multicasting?","answers":[{"answer":"a single IP multicast address that is used by all destinations in a group"}]},{"question":"19. In an Ethernet network, when a device receives a frame of 1200 bytes, what will it do?","answers":[{"answer":"process the frame as it is"}]},{"question":"20. What important information is examined in the Ethernet frame header by a Layer 2 device in order to forward the data onward?","answers":[{"answer":"destination MAC address"}]},{"question":"21. What will a Layer 2 switch do when the destination MAC address of a received frame is not in the MAC table?","answers":[{"answer":"It forwards the frame out of all ports except for the port at which the frame was received."}]},{"question":"22. What are two features of ARP? (Choose two.)","answers":[{"answer":"If a host is ready to send a packet to a local destination device and it has the IP address but not the MAC address of the destination, it generates an ARP broadcast."},{"answer":"If a device receiving an ARP request has the destination IPv4 address, it responds with an ARP reply."}]},{"question":"23. Which two services are required to enable a computer to receive dynamic IP addresses and access the Internet using domain names? (Choose two.)","answers":[{"answer":"DNS"},{"answer":"DHCP"}]},{"question":"24. What is a basic characteristic of the IP protocol?","answers":[{"answer":"connectionless"}]},{"question":"25. Refer to the exhibit. A user issues the command netstat –r on a workstation. Which IPv6 address is one of the link-local addresses of the workstation?","answers":[{"answer":"fe80::30d0:115:3f57:fe4c/128"}]},{"question":"26. What is the valid most compressed format possible of the IPv6 address 2001:0DB8:0000:AB00:0000:0000:0000:1234?","answers":[{"answer":"2001:DB8:0:AB00::1234"}]},{"question":"27. At a minimum, which address is required on IPv6-enabled interfaces?","answers":[{"answer":"link-local"}]},{"question":"28. An IPv6 enabled device sends a data packet with the destination address of FF02::2. What is the target of this packet?","answers":[{"answer":"all IPv6 configured routers on the local link"}]},{"question":"29. What is the purpose of ICMP messages?","answers":[{"answer":"to provide feedback of IP packet transmissions"}]},{"question":"30. Which statement describes a characteristic of the traceroute utility?","answers":[{"answer":"It identifies the routers in the path from a source host to a destination host."}]},{"question":"31. What is the usable number of host IP addresses on a network that has a /26 mask?","answers":[{"answer":"62"}]},{"question":"32. Refer to the exhibit. An administrator must send a message to everyone on the router A network. What is the broadcast address for network 172.16.16.0/22?","answers":[{"answer":"172.16.19.255"}]},{"question":"33. Given IPv6 address prefix 2001:db8::/48, what will be the last subnet that is created if the subnet prefix is changed to /52?","answers":[{"answer":"2001:db8:0:f000::/52"}]},{"question":"34. A technician with a PC is using multiple applications while connected to the Internet. How is the PC able to keep track of the data flow between multiple application sessions and have each application receive the correct packet flows?","answers":[{"answer":"The data flow is being tracked based on the source port number utilized by each application."}]},{"question":"35. What three services are provided by the transport layer? (Choose three.)","answers":[{"answer":"flow control"},{"answer":"connection establishment"},{"answer":"error recovery"}]},{"question":"36. An Internet television transmission is using UDP. What happens when part of the transmission is not delivered to the destination?","answers":[{"answer":"The transmission continues without the missing portion."}]},{"question":"37. Which two OSI model layers are considered to be included in the top layer of the TCP/IP protocol stack? (Choose two.)","answers":[{"answer":"presentation"},{"answer":"session"}]},{"question":"38. An author is uploading one chapter document from a personal computer to a file server of a book publisher. What role is the personal computer assuming in this network model?","answers":[{"answer":"client"}]},{"question":"39. Which two automatic addressing assignments are supported by DHCPv4? (Choose two.)","answers":[{"answer":"subnet mask"},{"answer":"default gateway address"}]},{"question":"40. When a network administrator is trying to manage network traffic on a growing network, when should traffic flow patterns be analyzed?","answers":[{"answer":"during times of peak utilization"}]},{"question":"41. What is the objective of a network reconnaissance attack?","answers":[{"answer":"discovery and mapping of systems"}]},{"question":"42. A network administrator enters the service password-encryption command into the configuration mode of a router. What does this command accomplish?","answers":[{"answer":"This command prevents someone from viewing the running configuration passwords."}]},{"question":"43. What will be the result of failed login attempts if the following command is entered into a router?","answers":[{"answer":"All login attempts will be blocked for 150 seconds if there are 4 failed attempts within 90 seconds."}]},{"question":"44. Which two statements correctly describe a router memory type and its contents? (Choose two.)","answers":[{"answer":"RAM is volatile and stores the IP routing table."},{"answer":"ROM is nonvolatile and contains basic diagnostic software."}]},{"question":"45. A user reports a lack of network connectivity. The technician takes control of the user machine and attempts to ping other computers on the network and these pings fail. The technician pings the default gateway and that also fails. What can be determined for sure by the results of these tests?","answers":[{"answer":"Nothing can be determined for sure at this point."}]},{"question":"46. For Cisco IOS, which escape sequence allows terminating a traceroute operation?","answers":[{"answer":"Ctrl+Shift+6"}]},{"question":"48. What three blocks of addresses are defined by RFC 1918 for private network use? (Choose three.)","answers":[{"answer":"10.0.0.0/8"},{"answer":"172.16.0.0/12"},{"answer":"192.168.0.0/16"}]},{"question":"49. A network administrator is variably subnetting a given block of IPv4 addresses. Which combination of network addresses and prefix lengths will make the most efficient use of addresses when the need is for 2 subnets capable of supporting 10 hosts and 1 subnet that can support 6 hosts?","answers":[{"answer":"10.1.1.128/28"},{"answer":"10.1.1.144/28"},{"answer":"10.1.1.160/29"}]},{"question":"53. What subnet mask is required to support 512 subnets on networks 172.28.0.0/16?","answers":[{"answer":"255.255.255.128"}]},{"question":"54. A DHCP server is used to IP addresses dynamically to the hosts on a network. The address pool is configured with 10.29.244.0/25. There are 19 printers on this network that need to use reserve static IP addresses from the pool. How many IP address in the pool are left to be assign to other hosts?","answers":[{"answer":"107"}]},{"question":"55. What is an advantage of storing configuration files to a USB flash drive instead of to a TFTP server?","answers":[{"answer":"The transfer of the files does not rely on network connectivity."}]},{"question":"56. Refer to the exhibit. An administrator is trying to view the current configuration on this switch but receives the error message that is displayed. What does this error indicate?","answers":[{"answer":"Not enough characters were entered for the interpreter to recognize the command."}]},{"question":"57. A host is accessing a Web server on a remote network. Which three functions are performed by intermediary network devices during this conversation? (Choose three.)","answers":[{"answer":"regenerating data signals"},{"answer":"applying security settings to control the flow of data"},{"answer":"notifying other devices when errors occur"}]},{"question":"58. For which three reasons was a packet-switched connectionless data communications technology used when developing the Internet? (Choose three.)","answers":[{"answer":"It can rapidly adapt to the loss of data transmission facilities."},{"answer":"It efficiently utilizes the network infrastructure to transfer data."},{"answer":"Data packets can travel multiple paths through the network simultaneously."}]},{"question":"59. A medium-sized business is researching available options for connecting to the Internet. The company is looking for a high speed option with dedicated, symmetric access. Which connection type should the company choose?","answers":[{"answer":"leased line"}]},{"question":"60. What is an ISP?","answers":[{"answer":"It is an organization that enables individuals and businesses to connect to the Internet."}]},{"question":"61. Refer to the exhibit. A network engineer is attempting to connect to a new router to perform the initial configuration. The engineer connects a rollover cable from the serial port of a PC to the Aux port on the router, then configures HyperTerminal as shown. The engineer cannot get a login prompt in HyperTerminal. What would fix the problem?","answers":[{"answer":"Move the cable to the router console port."}]},{"question":"62. Which connection provides a secure CLI session with encryption to a Cisco router?","answers":[{"answer":"an SSH connection"}]},{"question":"63. Refer to the exhibit. From global configuration mode, an administrator is attempting to create a message-of-the-day banner by using the command banner motd V Authorized access only! Violators will be prosecuted! V When users log in using Telnet, the banner does not appear correctly. What is the problem?","answers":[{"answer":"The delimiting character appears in the banner message."}]},{"question":"64. What will happen if the default gateway address is incorrectly configured on a host?","answers":[{"answer":"The host cannot communicate with hosts in other networks."}]},{"question":"65. A network administrator is designing a new network infrastructure that includes both wired and wireless connectivity. Under which situation would a wireless connection be recommended?","answers":[{"answer":"The end-user device needs mobility when connecting to the network."}]},{"question":"66. A network administrator is troubleshooting connectivity issues on a server. Using a tester, the administrator notices that the signals generated by the server NIC are distorted and not usable. In which layer of the OSI model is the error categorized?","answers":[{"answer":"physical layer"}]},{"question":"67. Refer to the exhibit. Which layer of the OSI model would format data in this way?","answers":[{"answer":"data link"}]},{"question":"68. On a point-to-point network, which communication type is used when two devices can both transmit and receive but not at the same time?","answers":[{"answer":"half-duplex"}]},{"question":"69. A frame is transmitted from one networking device to another. Why does the receiving device check the FCS field in the frame?","answers":[{"answer":"to check the frame for possible transmission errors"}]},{"question":"70. The ARP table in a switch maps which two types of address together?","answers":[{"answer":"Layer 3 address to a Layer 2 address"}]},{"question":"71. What are two actions performed by a Cisco switch? (Choose two.)","answers":[{"answer":"using the source MAC addresses of frames to build and maintain a MAC address table"},{"answer":"utilizing the MAC address table to forward frames via the destination MAC address"}]},{"question":"72. Which two functions are primary functions of a router? (Choose two.)","answers":[{"answer":"packet switching"},{"answer":"path selection"}]},{"question":"73. A router boots and enters setup mode. What is the reason for this?","answers":[{"answer":"The configuration file is missing from NVRAM."}]},{"question":"74. Using default settings, what is the next step in the router boot sequence after the IOS loads from flash?","answers":[{"answer":"Locate and load the startup-config file from NVRAM."}]},{"question":"75. What are two ways that TCP uses the sequence numbers in a segment? (Choose two.)","answers":[{"answer":"to identify missing segments at the destination"},{"answer":"to reassemble the segments at the remote location"}]},{"question":"76. A high school in New York (school A) is using videoconferencing technology to establish student interactions with another high school (school B) in Russia. The videoconferencing is conducted between two end devices through the Internet. The network administrator of school A configures the end device with the IP address 192.168.25.10. The administrator sends a request for the IP address for the end device in school B and the response is 192.168.25.10. The administrator knows immediately that this IP will not work. Why?","answers":[{"answer":"This is a private IP address."}]},{"question":"77. Which service will translate private internal IP addresses into Internet routable public IP addresses?","answers":[{"answer":"NAT"}]},{"question":"78. Which IPv6 address notation is valid?","answers":[{"answer":"2001:DB8:0:1111::200"}]},{"question":"79. Which range of link-local addresses can be assigned to an IPv6-enabled interface??","answers":[{"answer":"FEBF::/10"}]},{"question":"80. What are the three parts of an IPv6 global unicast address? (Choose three.)","answers":[{"answer":"global routing prefix"},{"answer":"subnet ID"},{"answer":"interface ID"}]},{"question":"81. A network administrator has been issued a network address of 192.31.7.64/26. How many subnets of equal size could be created from the assigned /26 network by using a /28 prefix?","answers":[{"answer":"4"}]},{"question":"82. A small satellite office has been given the overall network number of 192.168.99.0/24 and the network technician can subdivide the network addresses as needed. The office needs network access for both wired and wireless devices. However, because of the security consideration, these two networks should be separate. The wired network will have 20 devices. The wireless network has a potential connection of 45 devices. Which addressing scheme would be most efficient for these two networks?","answers":[{"answer":"192.168.99.0/26"},{"answer":"192.168.99.64/27"}]},{"question":"83. The administrator of a branch office receives an IPv6 prefix of 2001:db8:3000::/52 from the corporate network manager. How many subnets can the administrator create?","answers":[{"answer":"4096"}]},{"question":"84. A user is attempting to do an http://www.cisco.com/ without success. Which two configuration values must be set on the host to allow this access? (Choose two.)","answers":[{"answer":"DNS server"},{"answer":"default gateway"}]},{"question":"85. Which devices should be secured to mitigate against MAC address spoofing attacks?","answers":[{"answer":"Layer 2 devices"}]},{"question":"86. Which router configuration mode would an administrator use to configure the router for SSH or Telnet login access?","answers":[{"answer":"line"}]},{"question":"87. Refer to the exhibit. An administrator is testing connectivity to a remote device with the IP address 10.1.1.1. What does the output of this command indicate?","answers":[{"answer":"A router along the path did not have a route to the destination."}]},{"question":"88. Which is a function of the show ip route command when used as a tool for troubleshooting network connectivity?","answers":[{"answer":"shows the IP address of the next hop router for each route"}]},{"question":"89. A user calls the help desk to report that a Windows XP workstation is unable to connect to the network after startup and that a popup window says “This connection has limited or no connectivity.” The technician asks the user to issue the ipconfig /all command. The user reports the IP address is 169.254.69.196 with subnet mask of 255.255.0.0 and nothing is displayed for the DNS server IP address. What is the cause of the problem?","answers":[{"answer":"The workstation is unable to obtain an IP address from a DHCP server."}]},{"question":"90. A particular email site does not appear to be responding on a Windows 7 computer. What command could the technician use to show any cached DNS entries for this web page?","answers":[{"answer":"ipconfig /displaydns"}]},{"question":"91. To revert to a previous configuration, an administrator issues the command copy tftp startup-config on a router and enters the host address and file name when prompted. After the command is completed, why does the current configuration remain unchanged?","answers":[{"answer":"The configuration should have been copied to the running configuration instead."}]},{"question":"92. Refer to the graphic. What is the effect of setting the security mode to WEP on the Linksys integrated router?","answers":[{"answer":"It encrypts data between the wireless client and the access point."}]},{"question":"93. Which type of wireless security is easily compromised?","answers":[{"answer":"WEP"}]},{"question":"94. Refer to the exhibit. Which two settings could be changed to improve security on the wireless network? (Choose two.)","answers":[{"answer":"SSID"},{"answer":"SSID broadcast"},{"answer":"95. Fill in the blank. Do not abbreviate. Use lower case."},{"answer":"no switchport"},{"answer":"96. Fill in the blank."},{"answer":"4"}]},{"question":"101. Which two statements are correct in a comparison of IPv4 and IPv6 packet headers? (Choose two.)","answers":[{"answer":"The Source Address field name from IPv4 is kept in IPv6."},{"answer":"The Time-to-Live field from IPv4 has been replaced by the Hop Limit field in IPv6."}]},{"question":"102. Why are port numbers included in the TCP header of a segment?","answers":[{"answer":"to enable a receiving host to forward the data to the appropriate application"}]},{"question":"What is the secret keyword that is displayed on the web page?","answers":[{"answer":"packet"}]},{"question":"104. Which two types of applications rely on their traffic having priority over other traffic types through the network? (Choose two.)","answers":[{"answer":"voice"},{"answer":"video"},{"answer":"105. Fill in the blank."},{"answer":"172.25.0.126"}]},{"question":"106. What are two characteristics of a scalable network? (Choose two.)","answers":[{"answer":"grows in size without impacting existing users"},{"answer":"suitable for modular devices that allow for expansion"}]},{"question":"108. What information is added during encapsulation at OSI Layer 3?","answers":[{"answer":"source and destination IP address"}]},{"question":"109. Refer to the exhibit. HostA is attempting to contact ServerB. Which two statements correctly describe the addressing that HostA will generate in the process? (Choose two.)","answers":[{"answer":"A frame with the destination MAC address of RouterA."},{"answer":"A packet with the destination IP address of ServerB."}]},{"question":"110. What will a host on an Ethernet network do if it receives a frame with a destination MAC address that does not match its own MAC address?","answers":[{"answer":"It will discard the frame."}]},{"question":"111. A PC that is communicating with a web server is utilizing a window size of 6,000 bytes when sending data and a packet size of 1,500 bytes. What byte of information will the web server acknowledge after it has received four packets of data from the PC?","answers":[{"answer":"6,001"}]},{"question":"112. What three primary functions does data link layer encapsulation provide? (Choose three.)","answers":[{"answer":"error detection"},{"answer":"addressing"},{"answer":"frame delimiting"},{"answer":"113. Fill in the blank using a number."},{"answer":"64"}]},{"question":"114. What three statements describe features or functions of media access control? (Choose three.)","answers":[{"answer":"Ethernet utilizes CSMA/CD."},{"answer":"Data link layer protocols define the rules for access to different media."},{"answer":"It is responsible for detecting transmission errors in transmitted data."}]},{"question":"Which information is obtained from this command output?","answers":[{"answer":"10.20.20.3, non-authoritative answer"}]},{"question":"116. What makes fiber preferable to copper cabling for interconnecting buildings? (Choose three.)","answers":[{"answer":"greater bandwidth potential"},{"answer":"limited susceptibility to EMI/RFI"},{"answer":"greater distances per cable run"}]},{"question":"117. A network team is comparing physical WAN topologies for connecting remote sites to a headquarters building. Which topology provides high availability and connects some, but not all, remote sites?","answers":[{"answer":"partial mesh"}]},{"question":"118. What is the function of CSMA/CA in a WLAN?","answers":[{"answer":"It provides the mechanism for media access."},{"answer":"119. Fill in the blank."},{"answer":"4"},{"answer":"120. Place the options in the following order:"},{"answer":"[+] cables connecting rooms to wiring closets"},{"answer":"[+] desktop PC in a classroom"},{"answer":"[#] IP address of a server"},{"answer":"[#] a switch located in a classroom"}]},{"question":"121. Why are the paired wires twisted in a CAT5 cable?","answers":[{"answer":"to provide eletromagnetic noise cancellation"}]},{"question":"122. Refer to the exhibit. What will be the result of entering this configuration the next time a network administrator connects a console cable to the router and no additional commands have been entered?","answers":[{"answer":"The administrator will be presented with the R1> prompt."}]},{"question":"124. Refer to the exhibit. Using VLSM, what is the largest and smallest subnet mask required on this network in order to minimize address waste?","answers":[{"answer":"255.255.254.0 and 255.255.255.252"}]},{"question":"125. What is one purpose of the TCP three-way handshake?","answers":[{"answer":"synchronizing sequence numbers between source and destination in preparation for data transfer"}]},{"question":"126. Which type of wireless security is easily compromised?","answers":[{"answer":"WEP"}]},{"question":"127. An administrator needs to upgrade the IOS in a router to a version that supports new features. Which factor should the administrator consider before performing the upgrade?","answers":[{"answer":"The new IOS might require more RAM to function properly."}]},{"question":"128. Which two statements describe the characteristics of fiber-optic cabling? (Choose two.)","answers":[{"answer":"Fiber-optic cabling does not conduct electricity."},{"answer":"Fiber-optic cabling is primarily used as backbone cabling."}]},{"question":"129. A host PC is attempting to lease an address through DHCP. What message is sent by the server to let the client know it is able to use the provided IP information?","answers":[{"answer":"DHCPACK*"}]},{"question":"130. What part of the URL, http://www.cisco.com/index.html, represents the top-level DNS domain?","answers":[{"answer":".com"}]},{"question":"131. A user issues the ipconfig /displaydns command on the workstation. What is the function of this command?","answers":[{"answer":"to show all of the cached DNS entries"},{"answer":"132. Consider the following range of addresses:"},{"answer":"60"}]},{"question":"133. Which publicly available resources describe protocols, processes, and technologies for the Internet but do not give implementation details?","answers":[{"answer":"Request for Comments"}]},{"question":"134. What information does the loopback test provide?","answers":[{"answer":"The TCP/IP stack on the device is working correctly."}]},{"question":"135. What are the two main components of Cisco Express Forwarding (CEF)? (Choose two.)","answers":[{"answer":"adjacency tables"},{"answer":"forwarding information base (FIB)"}]},{"question":"136. Which subnet would include the address 192.168.1.96 as a usable host address?","answers":[{"answer":"192.168.1.64/26"}]},{"question":"137. When applied to a router, which command would help mitigate brute-force password attacks against the router?","answers":[{"answer":"login block-for 60 attempts 5 within 60"}]},{"question":"138. Which statement best describes the operation of the File Transfer Protocol?","answers":[{"answer":"An FTP server uses a source port number of 21 and a randomly generated destination port number during the establishment of control traffic with an FTP client."}]},{"question":"139. What is a characteristic of multicast messages?","answers":[]},{"question":"Two network engineers are discussing the methods used to forward frames through a switch. What is an important concept related to the cut-through method of switching?","answers":[{"answer":"Packets can be relayed with errors when fast-forward switching is used."}]}]
+[
+  {
+    "question": "1. Which term refers to a network that provides secure access to the corporate offices by suppliers, customers and collaborators?",
+    "answers": [
+      {
+        "answer": "extranet"
+      }
+    ]
+  },
+  {
+    "question": "2. A small business user is looking for an ISP connection that provides high speed digital transmission over regular phone lines. What ISP connection type should be used?",
+    "answers": [
+      {
+        "answer": "DSL"
+      }
+    ]
+  },
+  {
+    "question": "3. Refer to the exhibit. An administrator is trying to configure the switch but receives the error message that is displayed in the exhibit. What is the problem?",
+    "answers": [
+      {
+        "answer": "The administrator must first enter privileged EXEC mode before issuing the command."
+      }
+    ]
+  },
+  {
+    "question": "4. Which keys act as a hot key combination that is used to interrupt an IOS process?",
+    "answers": [
+      {
+        "answer": "Ctrl-Shift-6"
+      }
+    ]
+  },
+  {
+    "question": "5. Refer to the exhibit. A network administrator is configuring access control to switch SW1. If the administrator uses Telnet to connect to the switch, which password is needed to access user EXEC mode?",
+    "answers": [
+      {
+        "answer": "linevtyin"
+      }
+    ]
+  },
+  {
+    "question": "6. A network administrator enters the service password­encryption command into the configuration mode of a router. What does this command accomplish?",
+    "answers": [
+      {
+        "answer": "This command prevents someone from viewing the running configuration passwords."
+      }
+    ]
+  },
+  {
+    "question": "7. What is the purpose of the SVI on a Cisco switch?",
+    "answers": [
+      {
+        "answer": "The SVI provides a virtual interface for remote access to the switch."
+      }
+    ]
+  },
+  {
+    "question": "8. Which message delivery option is used when all devices need to receive the same message simultaneously?",
+    "answers": [
+      {
+        "answer": "broadcast"
+      }
+    ]
+  },
+  {
+    "question": "9. Which two protocols function at the internet layer? (Choose two.)",
+    "answers": [
+      {
+        "answer": "ICMP"
+      },
+      {
+        "answer": "IP"
+      }
+    ]
+  },
+  {
+    "question": "10. What PDU is associated with the transport layer?",
+    "answers": [
+      {
+        "answer": "segment"
+      }
+    ]
+  },
+  {
+    "question": "11. What is done to an IP packet before it is transmitted over the physical medium?",
+    "answers": [
+      {
+        "answer": "It is encapsulated in a Layer 2 frame."
+      }
+    ]
+  },
+  {
+    "question": "12. What type of communication medium is used with a wireless LAN connection?",
+    "answers": [
+      {
+        "answer": "radio waves"
+      }
+    ]
+  },
+  {
+    "question": "13. In addition to the cable length, what two factors could interfere with the communication carried over UTP cables? (Choose two.)",
+    "answers": [
+      {
+        "answer": "crosstalk"
+      },
+      {
+        "answer": "electromagnetic interference"
+      }
+    ]
+  },
+  {
+    "question": "14. What are the two sublayers of the OSI model data link layer? (Choose two.)",
+    "answers": [
+      {
+        "answer": "LLC"
+      },
+      {
+        "answer": "MAC"
+      }
+    ]
+  },
+  {
+    "question": "15. A technician has been asked to develop a physical topology for a network that provides a high level of redundancy. Which physical topology requires that every node is attached to every other node on the network?",
+    "answers": [
+      {
+        "answer": "mesh"
+      }
+    ]
+  },
+  {
+    "question": "16. What type of communication rule would best describe CSMA/CD?",
+    "answers": [
+      {
+        "answer": "access method"
+      }
+    ]
+  },
+  {
+    "question": "17. If data is being sent over a wireless network, then connects to an Ethernet network, and eventually connects to a DSL connection, which header will be replaced each time the data travels through a network infrastructure device?",
+    "answers": [
+      {
+        "answer": "data link"
+      }
+    ]
+  },
+  {
+    "question": "18. What best describes the destination IPv4 address that is used by multicasting?",
+    "answers": [
+      {
+        "answer": "a single IP multicast address that is used by all destinations in a group"
+      }
+    ]
+  },
+  {
+    "question": "19. In an Ethernet network, when a device receives a frame of 1200 bytes, what will it do?",
+    "answers": [
+      {
+        "answer": "process the frame as it is"
+      }
+    ]
+  },
+  {
+    "question": "20. What important information is examined in the Ethernet frame header by a Layer 2 device in order to forward the data onward?",
+    "answers": [
+      {
+        "answer": "destination MAC address"
+      }
+    ]
+  },
+  {
+    "question": "21. What will a Layer 2 switch do when the destination MAC address of a received frame is not in the MAC table?",
+    "answers": [
+      {
+        "answer": "It forwards the frame out of all ports except for the port at which the frame was received."
+      }
+    ]
+  },
+  {
+    "question": "22. What are two features of ARP? (Choose two.)",
+    "answers": [
+      {
+        "answer": "If a host is ready to send a packet to a local destination device and it has the IP address but not the MAC address of the destination, it generates an ARP broadcast."
+      },
+      {
+        "answer": "If a device receiving an ARP request has the destination IPv4 address, it responds with an ARP reply."
+      }
+    ]
+  },
+  {
+    "question": "23. Which two services are required to enable a computer to receive dynamic IP addresses and access the Internet using domain names? (Choose two.)",
+    "answers": [
+      {
+        "answer": "DNS"
+      },
+      {
+        "answer": "DHCP"
+      }
+    ]
+  },
+  {
+    "question": "24. What is a basic characteristic of the IP protocol?",
+    "answers": [
+      {
+        "answer": "connectionless"
+      }
+    ]
+  },
+  {
+    "question": "25. Refer to the exhibit. A user issues the command netstat –r on a workstation. Which IPv6 address is one of the link-local addresses of the workstation?",
+    "answers": [
+      {
+        "answer": "fe80::30d0:115:3f57:fe4c/128"
+      }
+    ]
+  },
+  {
+    "question": "26. What is the valid most compressed format possible of the IPv6 address 2001:0DB8:0000:AB00:0000:0000:0000:1234?",
+    "answers": [
+      {
+        "answer": "2001:DB8:0:AB00::1234"
+      }
+    ]
+  },
+  {
+    "question": "27. At a minimum, which address is required on IPv6-enabled interfaces?",
+    "answers": [
+      {
+        "answer": "link-local"
+      }
+    ]
+  },
+  {
+    "question": "28. An IPv6 enabled device sends a data packet with the destination address of FF02::2. What is the target of this packet?",
+    "answers": [
+      {
+        "answer": "all IPv6 configured routers on the local link"
+      }
+    ]
+  },
+  {
+    "question": "29. What is the purpose of ICMP messages?",
+    "answers": [
+      {
+        "answer": "to provide feedback of IP packet transmissions"
+      }
+    ]
+  },
+  {
+    "question": "30. Which statement describes a characteristic of the traceroute utility?",
+    "answers": [
+      {
+        "answer": "It identifies the routers in the path from a source host to a destination host."
+      }
+    ]
+  },
+  {
+    "question": "31. What is the usable number of host IP addresses on a network that has a /26 mask?",
+    "answers": [
+      {
+        "answer": "62"
+      }
+    ]
+  },
+  {
+    "question": "32. Refer to the exhibit. An administrator must send a message to everyone on the router A network. What is the broadcast address for network 172.16.16.0/22?",
+    "answers": [
+      {
+        "answer": "172.16.19.255"
+      }
+    ]
+  },
+  {
+    "question": "33. Given IPv6 address prefix 2001:db8::/48, what will be the last subnet that is created if the subnet prefix is changed to /52?",
+    "answers": [
+      {
+        "answer": "2001:db8:0:f000::/52"
+      }
+    ]
+  },
+  {
+    "question": "34. A technician with a PC is using multiple applications while connected to the Internet. How is the PC able to keep track of the data flow between multiple application sessions and have each application receive the correct packet flows?",
+    "answers": [
+      {
+        "answer": "The data flow is being tracked based on the source port number utilized by each application."
+      }
+    ]
+  },
+  {
+    "question": "35. What three services are provided by the transport layer? (Choose three.)",
+    "answers": [
+      {
+        "answer": "flow control"
+      },
+      {
+        "answer": "connection establishment"
+      },
+      {
+        "answer": "error recovery"
+      }
+    ]
+  },
+  {
+    "question": "36. An Internet television transmission is using UDP. What happens when part of the transmission is not delivered to the destination?",
+    "answers": [
+      {
+        "answer": "The transmission continues without the missing portion."
+      }
+    ]
+  },
+  {
+    "question": "37. Which two OSI model layers are considered to be included in the top layer of the TCP/IP protocol stack? (Choose two.)",
+    "answers": [
+      {
+        "answer": "presentation"
+      },
+      {
+        "answer": "session"
+      }
+    ]
+  },
+  {
+    "question": "38. An author is uploading one chapter document from a personal computer to a file server of a book publisher. What role is the personal computer assuming in this network model?",
+    "answers": [
+      {
+        "answer": "client"
+      }
+    ]
+  },
+  {
+    "question": "39. Which two automatic addressing assignments are supported by DHCPv4? (Choose two.)",
+    "answers": [
+      {
+        "answer": "subnet mask"
+      },
+      {
+        "answer": "default gateway address"
+      }
+    ]
+  },
+  {
+    "question": "40. When a network administrator is trying to manage network traffic on a growing network, when should traffic flow patterns be analyzed?",
+    "answers": [
+      {
+        "answer": "during times of peak utilization"
+      }
+    ]
+  },
+  {
+    "question": "41. What is the objective of a network reconnaissance attack?",
+    "answers": [
+      {
+        "answer": "discovery and mapping of systems"
+      }
+    ]
+  },
+  {
+    "question": "42. A network administrator enters the service password-encryption command into the configuration mode of a router. What does this command accomplish?",
+    "answers": [
+      {
+        "answer": "This command prevents someone from viewing the running configuration passwords."
+      }
+    ]
+  },
+  {
+    "question": "43. What will be the result of failed login attempts if the following command is entered into a router?",
+    "answers": [
+      {
+        "answer": "All login attempts will be blocked for 150 seconds if there are 4 failed attempts within 90 seconds."
+      }
+    ]
+  },
+  {
+    "question": "44. Which two statements correctly describe a router memory type and its contents? (Choose two.)",
+    "answers": [
+      {
+        "answer": "RAM is volatile and stores the IP routing table."
+      },
+      {
+        "answer": "ROM is nonvolatile and contains basic diagnostic software."
+      }
+    ]
+  },
+  {
+    "question": "45. A user reports a lack of network connectivity. The technician takes control of the user machine and attempts to ping other computers on the network and these pings fail. The technician pings the default gateway and that also fails. What can be determined for sure by the results of these tests?",
+    "answers": [
+      {
+        "answer": "Nothing can be determined for sure at this point."
+      }
+    ]
+  },
+  {
+    "question": "46. For Cisco IOS, which escape sequence allows terminating a traceroute operation?",
+    "answers": [
+      {
+        "answer": "Ctrl+Shift+6"
+      }
+    ]
+  },
+  {
+    "question": "48. What three blocks of addresses are defined by RFC 1918 for private network use? (Choose three.)",
+    "answers": [
+      {
+        "answer": "10.0.0.0/8"
+      },
+      {
+        "answer": "172.16.0.0/12"
+      },
+      {
+        "answer": "192.168.0.0/16"
+      }
+    ]
+  },
+  {
+    "question": "49. A network administrator is variably subnetting a given block of IPv4 addresses. Which combination of network addresses and prefix lengths will make the most efficient use of addresses when the need is for 2 subnets capable of supporting 10 hosts and 1 subnet that can support 6 hosts?",
+    "answers": [
+      {
+        "answer": "10.1.1.128/28"
+      },
+      {
+        "answer": "10.1.1.144/28"
+      },
+      {
+        "answer": "10.1.1.160/29"
+      }
+    ]
+  },
+  {
+    "question": "53. What subnet mask is required to support 512 subnets on networks 172.28.0.0/16?",
+    "answers": [
+      {
+        "answer": "255.255.255.128"
+      }
+    ]
+  },
+  {
+    "question": "54. A DHCP server is used to IP addresses dynamically to the hosts on a network. The address pool is configured with 10.29.244.0/25. There are 19 printers on this network that need to use reserve static IP addresses from the pool. How many IP address in the pool are left to be assign to other hosts?",
+    "answers": [
+      {
+        "answer": "107"
+      }
+    ]
+  },
+  {
+    "question": "55. What is an advantage of storing configuration files to a USB flash drive instead of to a TFTP server?",
+    "answers": [
+      {
+        "answer": "The transfer of the files does not rely on network connectivity."
+      }
+    ]
+  },
+  {
+    "question": "56. Refer to the exhibit. An administrator is trying to view the current configuration on this switch but receives the error message that is displayed. What does this error indicate?",
+    "answers": [
+      {
+        "answer": "Not enough characters were entered for the interpreter to recognize the command."
+      }
+    ]
+  },
+  {
+    "question": "57. A host is accessing a Web server on a remote network. Which three functions are performed by intermediary network devices during this conversation? (Choose three.)",
+    "answers": [
+      {
+        "answer": "regenerating data signals"
+      },
+      {
+        "answer": "applying security settings to control the flow of data"
+      },
+      {
+        "answer": "notifying other devices when errors occur"
+      }
+    ]
+  },
+  {
+    "question": "58. For which three reasons was a packet-switched connectionless data communications technology used when developing the Internet? (Choose three.)",
+    "answers": [
+      {
+        "answer": "It can rapidly adapt to the loss of data transmission facilities."
+      },
+      {
+        "answer": "It efficiently utilizes the network infrastructure to transfer data."
+      },
+      {
+        "answer": "Data packets can travel multiple paths through the network simultaneously."
+      }
+    ]
+  },
+  {
+    "question": "59. A medium-sized business is researching available options for connecting to the Internet. The company is looking for a high speed option with dedicated, symmetric access. Which connection type should the company choose?",
+    "answers": [
+      {
+        "answer": "leased line"
+      }
+    ]
+  },
+  {
+    "question": "60. What is an ISP?",
+    "answers": [
+      {
+        "answer": "It is an organization that enables individuals and businesses to connect to the Internet."
+      }
+    ]
+  },
+  {
+    "question": "61. Refer to the exhibit. A network engineer is attempting to connect to a new router to perform the initial configuration. The engineer connects a rollover cable from the serial port of a PC to the Aux port on the router, then configures HyperTerminal as shown. The engineer cannot get a login prompt in HyperTerminal. What would fix the problem?",
+    "answers": [
+      {
+        "answer": "Move the cable to the router console port."
+      }
+    ]
+  },
+  {
+    "question": "62. Which connection provides a secure CLI session with encryption to a Cisco router?",
+    "answers": [
+      {
+        "answer": "an SSH connection"
+      }
+    ]
+  },
+  {
+    "question": "63. Refer to the exhibit. From global configuration mode, an administrator is attempting to create a message-of-the-day banner by using the command banner motd V Authorized access only! Violators will be prosecuted! V When users log in using Telnet, the banner does not appear correctly. What is the problem?",
+    "answers": [
+      {
+        "answer": "The delimiting character appears in the banner message."
+      }
+    ]
+  },
+  {
+    "question": "64. What will happen if the default gateway address is incorrectly configured on a host?",
+    "answers": [
+      {
+        "answer": "The host cannot communicate with hosts in other networks."
+      }
+    ]
+  },
+  {
+    "question": "65. A network administrator is designing a new network infrastructure that includes both wired and wireless connectivity. Under which situation would a wireless connection be recommended?",
+    "answers": [
+      {
+        "answer": "The end-user device needs mobility when connecting to the network."
+      }
+    ]
+  },
+  {
+    "question": "66. A network administrator is troubleshooting connectivity issues on a server. Using a tester, the administrator notices that the signals generated by the server NIC are distorted and not usable. In which layer of the OSI model is the error categorized?",
+    "answers": [
+      {
+        "answer": "physical layer"
+      }
+    ]
+  },
+  {
+    "question": "67. Refer to the exhibit. Which layer of the OSI model would format data in this way?",
+    "answers": [
+      {
+        "answer": "data link"
+      }
+    ]
+  },
+  {
+    "question": "68. On a point-to-point network, which communication type is used when two devices can both transmit and receive but not at the same time?",
+    "answers": [
+      {
+        "answer": "half-duplex"
+      }
+    ]
+  },
+  {
+    "question": "69. A frame is transmitted from one networking device to another. Why does the receiving device check the FCS field in the frame?",
+    "answers": [
+      {
+        "answer": "to check the frame for possible transmission errors"
+      }
+    ]
+  },
+  {
+    "question": "70. The ARP table in a switch maps which two types of address together?",
+    "answers": [
+      {
+        "answer": "Layer 3 address to a Layer 2 address"
+      }
+    ]
+  },
+  {
+    "question": "71. What are two actions performed by a Cisco switch? (Choose two.)",
+    "answers": [
+      {
+        "answer": "using the source MAC addresses of frames to build and maintain a MAC address table"
+      },
+      {
+        "answer": "utilizing the MAC address table to forward frames via the destination MAC address"
+      }
+    ]
+  },
+  {
+    "question": "72. Which two functions are primary functions of a router? (Choose two.)",
+    "answers": [
+      {
+        "answer": "packet switching"
+      },
+      {
+        "answer": "path selection"
+      }
+    ]
+  },
+  {
+    "question": "73. A router boots and enters setup mode. What is the reason for this?",
+    "answers": [
+      {
+        "answer": "The configuration file is missing from NVRAM."
+      }
+    ]
+  },
+  {
+    "question": "74. Using default settings, what is the next step in the router boot sequence after the IOS loads from flash?",
+    "answers": [
+      {
+        "answer": "Locate and load the startup-config file from NVRAM."
+      }
+    ]
+  },
+  {
+    "question": "75. What are two ways that TCP uses the sequence numbers in a segment? (Choose two.)",
+    "answers": [
+      {
+        "answer": "to identify missing segments at the destination"
+      },
+      {
+        "answer": "to reassemble the segments at the remote location"
+      }
+    ]
+  },
+  {
+    "question": "76. A high school in New York (school A) is using videoconferencing technology to establish student interactions with another high school (school B) in Russia. The videoconferencing is conducted between two end devices through the Internet. The network administrator of school A configures the end device with the IP address 192.168.25.10. The administrator sends a request for the IP address for the end device in school B and the response is 192.168.25.10. The administrator knows immediately that this IP will not work. Why?",
+    "answers": [
+      {
+        "answer": "This is a private IP address."
+      }
+    ]
+  },
+  {
+    "question": "77. Which service will translate private internal IP addresses into Internet routable public IP addresses?",
+    "answers": [
+      {
+        "answer": "NAT"
+      }
+    ]
+  },
+  {
+    "question": "78. Which IPv6 address notation is valid?",
+    "answers": [
+      {
+        "answer": "2001:DB8:0:1111::200"
+      }
+    ]
+  },
+  {
+    "question": "79. Which range of link-local addresses can be assigned to an IPv6-enabled interface??",
+    "answers": [
+      {
+        "answer": "FEBF::/10"
+      }
+    ]
+  },
+  {
+    "question": "80. What are the three parts of an IPv6 global unicast address? (Choose three.)",
+    "answers": [
+      {
+        "answer": "global routing prefix"
+      },
+      {
+        "answer": "subnet ID"
+      },
+      {
+        "answer": "interface ID"
+      }
+    ]
+  },
+  {
+    "question": "81. A network administrator has been issued a network address of 192.31.7.64/26. How many subnets of equal size could be created from the assigned /26 network by using a /28 prefix?",
+    "answers": [
+      {
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "question": "82. A small satellite office has been given the overall network number of 192.168.99.0/24 and the network technician can subdivide the network addresses as needed. The office needs network access for both wired and wireless devices. However, because of the security consideration, these two networks should be separate. The wired network will have 20 devices. The wireless network has a potential connection of 45 devices. Which addressing scheme would be most efficient for these two networks?",
+    "answers": [
+      {
+        "answer": "192.168.99.0/26"
+      },
+      {
+        "answer": "192.168.99.64/27"
+      }
+    ]
+  },
+  {
+    "question": "83. The administrator of a branch office receives an IPv6 prefix of 2001:db8:3000::/52 from the corporate network manager. How many subnets can the administrator create?",
+    "answers": [
+      {
+        "answer": "4096"
+      }
+    ]
+  },
+  {
+    "question": "84. A user is attempting to do an http://www.cisco.com/ without success. Which two configuration values must be set on the host to allow this access? (Choose two.)",
+    "answers": [
+      {
+        "answer": "DNS server"
+      },
+      {
+        "answer": "default gateway"
+      }
+    ]
+  },
+  {
+    "question": "85. Which devices should be secured to mitigate against MAC address spoofing attacks?",
+    "answers": [
+      {
+        "answer": "Layer 2 devices"
+      }
+    ]
+  },
+  {
+    "question": "86. Which router configuration mode would an administrator use to configure the router for SSH or Telnet login access?",
+    "answers": [
+      {
+        "answer": "line"
+      }
+    ]
+  },
+  {
+    "question": "87. Refer to the exhibit. An administrator is testing connectivity to a remote device with the IP address 10.1.1.1. What does the output of this command indicate?",
+    "answers": [
+      {
+        "answer": "A router along the path did not have a route to the destination."
+      }
+    ]
+  },
+  {
+    "question": "88. Which is a function of the show ip route command when used as a tool for troubleshooting network connectivity?",
+    "answers": [
+      {
+        "answer": "shows the IP address of the next hop router for each route"
+      }
+    ]
+  },
+  {
+    "question": "89. A user calls the help desk to report that a Windows XP workstation is unable to connect to the network after startup and that a popup window says “This connection has limited or no connectivity.” The technician asks the user to issue the ipconfig /all command. The user reports the IP address is 169.254.69.196 with subnet mask of 255.255.0.0 and nothing is displayed for the DNS server IP address. What is the cause of the problem?",
+    "answers": [
+      {
+        "answer": "The workstation is unable to obtain an IP address from a DHCP server."
+      }
+    ]
+  },
+  {
+    "question": "90. A particular email site does not appear to be responding on a Windows 7 computer. What command could the technician use to show any cached DNS entries for this web page?",
+    "answers": [
+      {
+        "answer": "ipconfig /displaydns"
+      }
+    ]
+  },
+  {
+    "question": "91. To revert to a previous configuration, an administrator issues the command copy tftp startup-config on a router and enters the host address and file name when prompted. After the command is completed, why does the current configuration remain unchanged?",
+    "answers": [
+      {
+        "answer": "The configuration should have been copied to the running configuration instead."
+      }
+    ]
+  },
+  {
+    "question": "92. Refer to the graphic. What is the effect of setting the security mode to WEP on the Linksys integrated router?",
+    "answers": [
+      {
+        "answer": "It encrypts data between the wireless client and the access point."
+      }
+    ]
+  },
+  {
+    "question": "93. Which type of wireless security is easily compromised?",
+    "answers": [
+      {
+        "answer": "WEP"
+      }
+    ]
+  },
+  {
+    "question": "94. Refer to the exhibit. Which two settings could be changed to improve security on the wireless network? (Choose two.)",
+    "answers": [
+      {
+        "answer": "SSID"
+      },
+      {
+        "answer": "SSID broadcast"
+      },
+      {
+        "answer": "95. Fill in the blank. Do not abbreviate. Use lower case."
+      },
+      {
+        "answer": "no switchport"
+      },
+      {
+        "answer": "96. Fill in the blank."
+      },
+      {
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "question": "101. Which two statements are correct in a comparison of IPv4 and IPv6 packet headers? (Choose two.)",
+    "answers": [
+      {
+        "answer": "The Source Address field name from IPv4 is kept in IPv6."
+      },
+      {
+        "answer": "The Time-to-Live field from IPv4 has been replaced by the Hop Limit field in IPv6."
+      }
+    ]
+  },
+  {
+    "question": "102. Why are port numbers included in the TCP header of a segment?",
+    "answers": [
+      {
+        "answer": "to enable a receiving host to forward the data to the appropriate application"
+      }
+    ]
+  },
+  {
+    "question": "What is the secret keyword that is displayed on the web page?",
+    "answers": [
+      {
+        "answer": "packet"
+      }
+    ]
+  },
+  {
+    "question": "104. Which two types of applications rely on their traffic having priority over other traffic types through the network? (Choose two.)",
+    "answers": [
+      {
+        "answer": "voice"
+      },
+      {
+        "answer": "video"
+      },
+      {
+        "answer": "105. Fill in the blank."
+      },
+      {
+        "answer": "172.25.0.126"
+      }
+    ]
+  },
+  {
+    "question": "106. What are two characteristics of a scalable network? (Choose two.)",
+    "answers": [
+      {
+        "answer": "grows in size without impacting existing users"
+      },
+      {
+        "answer": "suitable for modular devices that allow for expansion"
+      }
+    ]
+  },
+  {
+    "question": "108. What information is added during encapsulation at OSI Layer 3?",
+    "answers": [
+      {
+        "answer": "source and destination IP address"
+      }
+    ]
+  },
+  {
+    "question": "109. Refer to the exhibit. HostA is attempting to contact ServerB. Which two statements correctly describe the addressing that HostA will generate in the process? (Choose two.)",
+    "answers": [
+      {
+        "answer": "A frame with the destination MAC address of RouterA."
+      },
+      {
+        "answer": "A packet with the destination IP address of ServerB."
+      }
+    ]
+  },
+  {
+    "question": "110. What will a host on an Ethernet network do if it receives a frame with a destination MAC address that does not match its own MAC address?",
+    "answers": [
+      {
+        "answer": "It will discard the frame."
+      }
+    ]
+  },
+  {
+    "question": "111. A PC that is communicating with a web server is utilizing a window size of 6,000 bytes when sending data and a packet size of 1,500 bytes. What byte of information will the web server acknowledge after it has received four packets of data from the PC?",
+    "answers": [
+      {
+        "answer": "6,001"
+      }
+    ]
+  },
+  {
+    "question": "112. What three primary functions does data link layer encapsulation provide? (Choose three.)",
+    "answers": [
+      {
+        "answer": "error detection"
+      },
+      {
+        "answer": "addressing"
+      },
+      {
+        "answer": "frame delimiting"
+      },
+      {
+        "answer": "113. Fill in the blank using a number."
+      },
+      {
+        "answer": "64"
+      }
+    ]
+  },
+  {
+    "question": "114. What three statements describe features or functions of media access control? (Choose three.)",
+    "answers": [
+      {
+        "answer": "Ethernet utilizes CSMA/CD."
+      },
+      {
+        "answer": "Data link layer protocols define the rules for access to different media."
+      },
+      {
+        "answer": "It is responsible for detecting transmission errors in transmitted data."
+      }
+    ]
+  },
+  {
+    "question": "Which information is obtained from this command output?",
+    "answers": [
+      {
+        "answer": "10.20.20.3, non-authoritative answer"
+      }
+    ]
+  },
+  {
+    "question": "116. What makes fiber preferable to copper cabling for interconnecting buildings? (Choose three.)",
+    "answers": [
+      {
+        "answer": "greater bandwidth potential"
+      },
+      {
+        "answer": "limited susceptibility to EMI/RFI"
+      },
+      {
+        "answer": "greater distances per cable run"
+      }
+    ]
+  },
+  {
+    "question": "117. A network team is comparing physical WAN topologies for connecting remote sites to a headquarters building. Which topology provides high availability and connects some, but not all, remote sites?",
+    "answers": [
+      {
+        "answer": "partial mesh"
+      }
+    ]
+  },
+  {
+    "question": "118. What is the function of CSMA/CA in a WLAN?",
+    "answers": [
+      {
+        "answer": "It provides the mechanism for media access."
+      },
+      {
+        "answer": "119. Fill in the blank."
+      },
+      {
+        "answer": "4"
+      },
+      {
+        "answer": "120. Place the options in the following order:"
+      },
+      {
+        "answer": "[+] cables connecting rooms to wiring closets"
+      },
+      {
+        "answer": "[+] desktop PC in a classroom"
+      },
+      {
+        "answer": "[#] IP address of a server"
+      },
+      {
+        "answer": "[#] a switch located in a classroom"
+      }
+    ]
+  },
+  {
+    "question": "121. Why are the paired wires twisted in a CAT5 cable?",
+    "answers": [
+      {
+        "answer": "to provide eletromagnetic noise cancellation"
+      }
+    ]
+  },
+  {
+    "question": "122. Refer to the exhibit. What will be the result of entering this configuration the next time a network administrator connects a console cable to the router and no additional commands have been entered?",
+    "answers": [
+      {
+        "answer": "The administrator will be presented with the R1> prompt."
+      }
+    ]
+  },
+  {
+    "question": "124. Refer to the exhibit. Using VLSM, what is the largest and smallest subnet mask required on this network in order to minimize address waste?",
+    "answers": [
+      {
+        "answer": "255.255.254.0 and 255.255.255.252"
+      }
+    ]
+  },
+  {
+    "question": "125. What is one purpose of the TCP three-way handshake?",
+    "answers": [
+      {
+        "answer": "synchronizing sequence numbers between source and destination in preparation for data transfer"
+      }
+    ]
+  },
+  {
+    "question": "126. Which type of wireless security is easily compromised?",
+    "answers": [
+      {
+        "answer": "WEP"
+      }
+    ]
+  },
+  {
+    "question": "127. An administrator needs to upgrade the IOS in a router to a version that supports new features. Which factor should the administrator consider before performing the upgrade?",
+    "answers": [
+      {
+        "answer": "The new IOS might require more RAM to function properly."
+      }
+    ]
+  },
+  {
+    "question": "128. Which two statements describe the characteristics of fiber-optic cabling? (Choose two.)",
+    "answers": [
+      {
+        "answer": "Fiber-optic cabling does not conduct electricity."
+      },
+      {
+        "answer": "Fiber-optic cabling is primarily used as backbone cabling."
+      }
+    ]
+  },
+  {
+    "question": "129. A host PC is attempting to lease an address through DHCP. What message is sent by the server to let the client know it is able to use the provided IP information?",
+    "answers": [
+      {
+        "answer": "DHCPACK*"
+      }
+    ]
+  },
+  {
+    "question": "130. What part of the URL, http://www.cisco.com/index.html, represents the top-level DNS domain?",
+    "answers": [
+      {
+        "answer": ".com"
+      }
+    ]
+  },
+  {
+    "question": "131. A user issues the ipconfig /displaydns command on the workstation. What is the function of this command?",
+    "answers": [
+      {
+        "answer": "to show all of the cached DNS entries"
+      },
+      {
+        "answer": "132. Consider the following range of addresses:"
+      },
+      {
+        "answer": "60"
+      }
+    ]
+  },
+  {
+    "question": "133. Which publicly available resources describe protocols, processes, and technologies for the Internet but do not give implementation details?",
+    "answers": [
+      {
+        "answer": "Request for Comments"
+      }
+    ]
+  },
+  {
+    "question": "134. What information does the loopback test provide?",
+    "answers": [
+      {
+        "answer": "The TCP/IP stack on the device is working correctly."
+      }
+    ]
+  },
+  {
+    "question": "135. What are the two main components of Cisco Express Forwarding (CEF)? (Choose two.)",
+    "answers": [
+      {
+        "answer": "adjacency tables"
+      },
+      {
+        "answer": "forwarding information base (FIB)"
+      }
+    ]
+  },
+  {
+    "question": "136. Which subnet would include the address 192.168.1.96 as a usable host address?",
+    "answers": [
+      {
+        "answer": "192.168.1.64/26"
+      }
+    ]
+  },
+  {
+    "question": "137. When applied to a router, which command would help mitigate brute-force password attacks against the router?",
+    "answers": [
+      {
+        "answer": "login block-for 60 attempts 5 within 60"
+      }
+    ]
+  },
+  {
+    "question": "138. Which statement best describes the operation of the File Transfer Protocol?",
+    "answers": [
+      {
+        "answer": "An FTP server uses a source port number of 21 and a randomly generated destination port number during the establishment of control traffic with an FTP client."
+      }
+    ]
+  },
+  {
+    "question": "139. What is a characteristic of multicast messages?",
+    "answers": []
+  },
+  {
+    "question": "Two network engineers are discussing the methods used to forward frames through a switch. What is an important concept related to the cut-through method of switching?",
+    "answers": [
+      {
+        "answer": "Packets can be relayed with errors when fast-forward switching is used."
+      }
+    ]
+  },
+  {
+    "question": "1. What two characteristics describe an FTP connection? (Choose two.)",
+    "answers": [
+      {
+        "answer": "The first connection established is for traffic control and the second connection is created to transfer a file."
+      },
+      {
+        "answer": "Files can be downloaded from or uploaded to the server."
+      }
+    ]
+  }
+
+]

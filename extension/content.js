@@ -1,21 +1,13 @@
-
 let chapterData = [];
-let dragDropData = [];
+let dragDrop0ata = [];
 
 fetch(chrome.extension.getURL('/data.json'))
     .then((resp) => resp.json())
     .then(function (jsonData) {
         console.table(jsonData);
         chapterData = jsonData;
-
-        chapterData.forEach((entry) => {
-            entry.answers.forEach((item) => {
-                console.log(item.answer)
-            })
-        })
-
-    
     });
+
 fetch(chrome.extension.getURL('/drag-drop.json'))
 .then((resp) => resp.json())
 .then(function (jsonData) {
@@ -28,7 +20,7 @@ function matchText(textA, textB) {
     const replaceRegex = /[^\w]/gi;
     textA = textA.replace(replaceRegex, "");
     textB = textB.replace(replaceRegex, "");
-    return (textA.includes(textB));
+    return (textA === textB);
 }
 
 
